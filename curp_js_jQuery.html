@@ -1,0 +1,13 @@
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<script>
+var settings = {
+  "url": "https://conectame.ddns.net/rest/api.php?m=curp&user=prueba&pass=sC%7D9pW1Q%5Dc&val=FOQV420702HDFXSC07",
+  "method": "GET",
+  "timeout": 0,
+};
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+  document.write(JSON.stringify(response));
+});
+</script>
